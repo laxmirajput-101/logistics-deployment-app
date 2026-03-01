@@ -1,6 +1,0 @@
-Streamlit
-Pickle
-Sklearn
-Pandas
-Numpy
-Matplotlib
