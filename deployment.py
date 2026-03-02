@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 import pickle
 
-loaded_model=pickle.load(open("C:/Users/HP/deployment_LR/trained_model.sav","rb"))
+loaded_model=pickle.load(open("trained_model.sav","rb"))
 
 
 st.title('Model Deployment: Logistic Regression')
@@ -48,4 +48,5 @@ st.subheader("Predicted Result")
 st.write("Diabetic" if prediction[0] == 1 else "Not Diabetic")
 
 st.subheader("Prediction Probability")
+
 st.write(prediction_proba)
