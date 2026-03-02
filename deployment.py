@@ -30,7 +30,7 @@ st.write(df)
 
 
 # ---------- LOAD & TRAIN MODEL ----------
-diabetes_1 = pd.read_csv("C:/Users/HP/deployment_LR/diabetes.csv")
+diabetes_1 = pd.read_csv("diabetes.csv")
 diabetes_1 = diabetes_1.dropna()
 
 X = diabetes_1.drop("Outcome", axis=1)
@@ -50,3 +50,4 @@ st.write("Diabetic" if prediction[0] == 1 else "Not Diabetic")
 st.subheader("Prediction Probability")
 
 st.write(prediction_proba)
+
