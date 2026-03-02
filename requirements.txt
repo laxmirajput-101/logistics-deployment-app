@@ -1,7 +1,7 @@
 Streamlit
-Pickle
 Pandas
 Numpy
 scikit-learn
 Matplotlib
+
 
