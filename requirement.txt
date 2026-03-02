@@ -3,4 +3,5 @@ Pickle
 Sklearn
 Pandas
 Numpy
+scikit-learn
 Matplotlib
